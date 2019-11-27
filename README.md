@@ -82,7 +82,7 @@ and not that bad
 <p align="center"><img src="./results/spectral2.png"></p>
 
 Affinity matrix used for spectral clustering will use Laplacian kernel in our case , the following figure shows laplacian distribution :
-<p align="center"><img src="./laplace_dist.PNG"></p>
+<p align="center"><img src="./images/laplace_dist.PNG"></p>
 <p align="center"><img src="./images/laplace_formula.PNG"></p>
 
 
