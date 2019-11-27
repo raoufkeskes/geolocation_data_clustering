@@ -1,5 +1,5 @@
-# About the geolocation light weight API
-a light weight API to apply clustering on geolocation data   
+# About the geolocation data clustering
+it s a light weight API to apply clustering on geolocation data   
 
 version = 1.0 
 
