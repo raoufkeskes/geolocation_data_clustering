@@ -88,7 +88,9 @@ Affinity matrix used for spectral clustering will use Laplacian kernel in our ca
 <p align="center"><img src="./images/laplace_formula.PNG"></p>
 
 
-3) **Agglomerative BEST RESULT** ( with maximum linkage ) :
+3) **Agglomerative ** ( with maximum linkage ) :
+
+**BEST RESULT**
 <p align="center"><img src="./results/agglo2.png"></p>
 
 taking the max distance at each time between two sets is relevant because as we can see , outlayers ( extreme points ) will play an important role to keep the merging smooth and realistic for this dataset
