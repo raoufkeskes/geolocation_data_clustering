@@ -95,7 +95,7 @@ as we can see the "Laplacian distribution" does not vannish quickly as the norma
 **BEST RESULT**
 <p align="center"><img src="./results/agglo2.png"></p>
 
-taking the max distance at each time between two sets is relevant because as we can see , outlayers ( extreme points ) will play an important role to keep the merging smooth and realistic for this dataset
+taking the max distance at each time between two sets is relevant because as we can see , outliers ( extreme points ) will play an important role to keep the merging smooth and realistic for this dataset
 
 to reproduce : 
 ```
