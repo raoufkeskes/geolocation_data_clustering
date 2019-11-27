@@ -87,7 +87,7 @@ Affinity matrix used for spectral clustering will use Laplacian kernel in our ca
 <p align="center"><img src="./images/laplace_dist.PNG"></p>
 <p align="center"><img src="./images/laplace_formula.PNG"></p>
 
-as we can see the "Laplacian distribution" does not vannish quickly as the normal distribution ( which becomes close to 0  after only 2 stds ) , the laplacian kernel keep tracking frther points which in our case helps a lot   
+as we can see the "Laplacian distribution" does not vannish quickly as the normal distribution ( which becomes close to 0  after only 2 stds ) , the laplacian kernel keep tracking further points which in our case helps a lot   
 
 
 3) **Agglomerative** ( with maximum linkage ) :
