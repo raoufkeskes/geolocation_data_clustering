@@ -56,7 +56,7 @@ python main.py  --clustering="spectral"  --save=False  --map_transparency=0.9
 
 
 ## Notes :
-- outputs folder is for outputs of our app . However , results stores relevant figures for the report / readme .
+- **outputs folder** is for outputs of our app . However , **results folder** stores relevant figures for the report / readme .
 - the argument values have to be passed only within double quotes , it doesn't work with single quotes
 - for help , execute the command : 
 ```
