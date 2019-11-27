@@ -3,6 +3,7 @@ it s a light weight API to apply clustering on geolocation data
 
 version = 1.0 
 
+
 ## Requirements
 - Python 3
 - numpy 
@@ -55,6 +56,7 @@ python main.py  --clustering="spectral"  --save=False  --map_transparency=0.9
 
 
 ## Notes :
+- outputs folder is for outputs of our app . However , results stores relevant figures for the report / readme .
 - the argument values have to be passed only within double quotes , it doesn't work with single quotes
 - for help , execute the command : 
 ```
@@ -86,11 +88,16 @@ Affinity matrix used for spectral clustering will use Laplacian kernel in our ca
 <p align="center"><img src="./images/laplace_formula.PNG"></p>
 
 
-3) **Agglomerative** ( with maximum linkage ) :
+3) **Agglomerative BEST RESULT** ( with maximum linkage ) :
 <p align="center"><img src="./results/agglo2.png"></p>
 
 taking the max distance at each time between two sets is relevant because as we can see , outlayers ( extreme points ) will play an important role to keep the merging smooth and realistic for this dataset
 
+to reproduce : 
+```
+python main.py  --clustering="agglo"
+```
+then outputs recent file  with appropriate name
 
 **other plots** : 
 
