@@ -23,7 +23,7 @@ python main.py args
 arguments : 
 * ```--path``` : the path to geolocation_data JSON dataset  , **default = "data/Brisbane_CityBike.json"**
 * ```--clustering``` :  specifies the clustering model 
-  * if None just plot simple the data else it takes only 3 values ( kmeans | spectral | agglo )
+  * if None just it just does a simple scatter of the data else it takes only 3 values ( kmeans | spectral | agglo )
   * agglo stands for agglomerative clustering
   * **default = None**
                         
